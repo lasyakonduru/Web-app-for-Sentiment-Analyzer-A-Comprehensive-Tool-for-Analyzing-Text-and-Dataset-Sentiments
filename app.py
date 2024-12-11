@@ -146,7 +146,7 @@ elif page == "Analysis":
 
     elif input_option == "Enter text":
         # Text input for analysis
-        user_input = st.text_area("Enter a text:", placeholder="Type a sentence for sentiment analysis...")
+        user_input = st.text_area("Enter a text:", placeholder="Type something...")
 
         if st.button("Analyze Sentiment"):
             if user_input.strip() == "":
