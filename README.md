@@ -2,6 +2,8 @@
 
 Welcome to the **Sentiment Analyzer Web App**! 🎉 This web application is a powerful and user-friendly tool designed to analyze sentiments in text or datasets in real time. Whether you're a researcher, data analyst, or business professional, this app is your go-to solution for classifying sentiments and visualizing trends to aid in better decision-making. 🚀
 
+🌟 **Check out the App Here**: [👉 **Sentiment Analyzer Web App** 👈](https://sentiment-analyz.streamlit.app/) 🚀
+
 ---
 
 ## 📖 **Features**
