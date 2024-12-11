@@ -117,7 +117,7 @@ Web-app-for-Sentiment-Analyzer/
 ├── app.py                     # Main application script
 ├── requirements.txt           # Required dependencies
 ├── README.md                  # Documentation
-├── data/                      # (Optional) Example datasets
+├── data/                      # if you have any
 ├── utils/                     # Helper scripts (preprocessing, predictions)
 └── visuals/                   # Images or visual assets for documentation
 ```
@@ -190,7 +190,7 @@ This project is licensed under the **MIT License**. You’re free to use, modify
 For questions, feedback, or contributions, please contact:  
 **Lasya Priya Konduru**  
 **Email**: konduru.lasya@gmail.com  
-**GitHub**: [your-github-profile](https://github.com/your-username)
+**LinkedIn**: https://www.linkedin.com/in/lasya-priya-k/
 
 ---
 
