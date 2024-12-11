@@ -19,7 +19,7 @@ nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # data loading
-df = pd.read_csv('C:/Users/kondu/OneDrive - Saint Louis University/Documents/ASSIGNMENTS/Laya_personal_project/2011Tornado_Summary.csv')
+df = pd.read_csv("2011Tornado_Summary.csv")
 #df = pd.read_csv('/content/2011Tornado_Summary.csv')
 df.head()
 
