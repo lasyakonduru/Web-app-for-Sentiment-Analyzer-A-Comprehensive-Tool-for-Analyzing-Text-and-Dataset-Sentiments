@@ -144,7 +144,7 @@ elif page == "Analysis":
             st.dataframe(data[["text", "Sentiment"]].head())
 
 
-    elif input_option == "Enter text":
+    elif input_option == "Enter a single text":
         # Text input for analysis
         user_input = st.text_area("Enter a text:", placeholder="Type something...")
 
