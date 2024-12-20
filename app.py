@@ -235,7 +235,7 @@ elif page == "Reports":
         rows_to_display = st.slider(
             "Rows to display", 
             min_value=5, 
-            max_value=min(100, len(data)),  # Limit max rows to a reasonable number
+            max_value=min(len(data)),  
             value=10
         )
     
