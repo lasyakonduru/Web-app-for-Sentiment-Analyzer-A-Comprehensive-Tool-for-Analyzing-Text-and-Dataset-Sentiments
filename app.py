@@ -205,10 +205,6 @@ elif page == "Analysis":
                 st.session_state.text_column = text_column  # Save column name
                 st.write("### Analyzed Dataset")
                 st.dataframe(data[[text_column, "Sentiment"]].head())
-            
-            # Dynamic row control
-            rows_to_display = st.slider("Rows to display", min_value=5, max_value=len(data), value=10)
-            st.dataframe(data.head(rows_to_display))
 
     elif input_option == "Enter a single text":
         # Text input for analysis
@@ -235,6 +231,10 @@ elif page == "Reports":
 
         st.write("### Data Preview")
         st.dataframe(data[[text_column, "Sentiment"]].head())
+
+        # Dynamic row control
+        rows_to_display = st.slider("Rows to display", min_value=5, max_value=len(data), value=10)
+        st.dataframe(data.head(rows_to_display))
 
         # Visualize sentiment distribution (Pie Chart)
         st.write("### Sentiment Distribution (Pie Chart)")
