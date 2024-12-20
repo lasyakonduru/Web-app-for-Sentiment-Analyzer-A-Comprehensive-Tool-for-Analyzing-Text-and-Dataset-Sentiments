@@ -229,12 +229,18 @@ elif page == "Reports":
         data = st.session_state.analysis_data
         text_column = st.session_state.text_column
 
-        st.write("### Data Preview")
-        st.dataframe(data[[text_column, "Sentiment"]].head())
+        st.write("### Analyzed Data Preview")
 
-        # Dynamic row control
-        rows_to_display = st.slider("Rows to display", min_value=5, max_value=len(data), value=10)
-        st.dataframe(data.head(rows_to_display))
+        # Dynamic row control for displaying analyzed data
+        rows_to_display = st.slider(
+            "Rows to display", 
+            min_value=5, 
+            max_value=min(100, len(data)),  # Limit max rows to a reasonable number
+            value=10
+        )
+    
+        # Display only the selected text column and sentiment
+        st.dataframe(data[[text_column, "Sentiment"]].head(rows_to_display))
 
         # Visualize sentiment distribution (Pie Chart)
         st.write("### Sentiment Distribution (Pie Chart)")
