@@ -5,3 +5,4 @@ matplotlib
 vaderSentiment
 scikit-learn
 sendgrid
+wordcloud
