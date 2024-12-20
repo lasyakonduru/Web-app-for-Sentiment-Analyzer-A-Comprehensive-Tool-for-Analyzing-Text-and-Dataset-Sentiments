@@ -119,7 +119,7 @@ Web-app-for-Sentiment-Analyzer/
 ├── app.py                     # Main application script
 ├── requirements.txt           # Required dependencies
 ├── README.md                  # Documentation
-├── data/                      # if you have any
+├── data/                      # sample datasets
 ├── utils/                     # Helper scripts (preprocessing, predictions)
 └── visuals/                   # Images or visual assets for documentation
 ```
